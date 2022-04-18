@@ -10,7 +10,7 @@ Original file is located at
 """
 
 # pip install 需要的套件
-!pip install fugle-trade==0.2.2
+!pip install fugle-trade -U
 
 # 安裝富果交易 API sdk
 from configparser import ConfigParser
