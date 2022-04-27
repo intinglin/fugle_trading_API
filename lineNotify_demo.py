@@ -125,6 +125,6 @@ strategy_1.start()
 
 # 執行策略二：漲跌幅提醒
 
-strategy_2 = threading.Thread(target=line.price_change_strategy, args=[symbol_id, 8, -1])
+strategy_2 = threading.Thread(target=line.price_change_strategy, args=[symbol_id, up_changerate, down_changerate])
 strategy_2.start()
 
